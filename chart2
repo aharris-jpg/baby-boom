@@ -1,0 +1,152 @@
+<!-- ===================== Super Bowl Baby Boom Index 2026 — Full Raw Data ===================== -->
+<section class="vi-babybowl-raw" role="region" aria-labelledby="vi-raw-title"
+  style="max-width:980px;margin:18px auto;font:14px/1.35 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+         color:#1b1d23;background:#ffffff;border:1px solid #E4ECF4;border-radius:14px;
+         box-shadow:0 1px 2px rgba(0,0,0,.04),0 10px 22px rgba(16,80,120,.10);">
+
+  <style>
+    section.vi-babybowl-raw, section.vi-babybowl-raw * { box-sizing:border-box; font-family:inherit; }
+    .vi-babybowl-raw{
+      --muted:#6E7480;
+      --border:#E4ECF4;
+      --navy:#102449;
+    }
+    .vi-babybowl-raw .head{
+      padding:14px 16px;
+      border-bottom:1px solid var(--border);
+      background:linear-gradient(120deg,#134B86,#1F7A5A);
+      border-radius:14px 14px 0 0;
+      color:#fff;
+    }
+    .vi-babybowl-raw .title{
+      margin:0 0 4px;
+      font-size:18px;
+      font-weight:900;
+    }
+    .vi-babybowl-raw .sub{
+      margin:0;
+      font-size:12px;
+      opacity:.95;
+    }
+    .vi-babybowl-raw .wrap{
+      padding:12px;
+    }
+    .vi-babybowl-raw .scroller{
+      overflow:auto;
+      max-height:72vh;
+      border:1px solid var(--border);
+      border-radius:12px;
+    }
+    table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      min-width:1040px;
+    }
+    thead th{
+      position:sticky;
+      top:0;
+      background:#fff;
+      border-bottom:1px solid var(--border);
+      padding:10px;
+      font-size:12px;
+      text-align:left;
+      white-space:nowrap;
+    }
+    tbody td{
+      padding:9px 10px;
+      border-bottom:1px solid var(--border);
+      font-size:13px;
+      font-variant-numeric:tabular-nums;
+      white-space:nowrap;
+    }
+    tbody tr:nth-child(even){
+      background:rgba(16,36,73,.02);
+    }
+    .city{ font-weight:800; }
+    .state{ color:var(--muted); font-size:12px; }
+    .team-pill{
+      padding:2px 8px;
+      border-radius:999px;
+      font-size:11px;
+      background:rgba(31,122,90,.1);
+      border:1px solid rgba(31,122,90,.2);
+      font-weight:700;
+    }
+    .prob{
+      font-weight:900;
+      color:var(--navy);
+    }
+    .footer{
+      display:flex;
+      justify-content:flex-end;
+      margin-top:10px;
+    }
+    .footer img{
+      height:34px;
+    }
+  </style>
+
+  <div class="head">
+    <h3 class="title" id="vi-raw-title">Super Bowl Baby Boom Index 2026 — Full Raw Dataset</h3>
+    <p class="sub">Raw inputs collected and frozen December 2025. Reference table only.</p>
+  </div>
+
+  <div class="wrap">
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr>
+            <th>Metro</th>
+            <th>State</th>
+            <th>Team</th>
+            <th>Implied Probability</th>
+            <th>Birth Rate</th>
+            <th>Fan Engagement</th>
+            <th>Sentiment</th>
+            <th>Momentum</th>
+            <th>Baby Fever</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="city">Buffalo</td><td class="state">NY</td><td><span class="team-pill">Bills</span></td><td class="prob">40.37%</td><td>52.7</td><td>65</td><td>39</td><td>1621.77</td><td>44</td></tr>
+          <tr><td class="city">Miami</td><td class="state">FL</td><td><span class="team-pill">Dolphins</span></td><td class="prob">34.94%</td><td>53.9</td><td>72</td><td>43</td><td>1390</td><td>47</td></tr>
+          <tr><td class="city">Boston</td><td class="state">MA</td><td><span class="team-pill">Patriots</span></td><td class="prob">42.37%</td><td>47.4</td><td>85</td><td>64</td><td>1560.18</td><td>54</td></tr>
+          <tr><td class="city">New York City</td><td class="state">NY</td><td><span class="team-pill">Jets</span></td><td class="prob">37.40%</td><td>52.7</td><td>68</td><td>47</td><td>1369.84</td><td>67</td></tr>
+          <tr><td class="city">New York City</td><td class="state">NY</td><td><span class="team-pill">Giants</span></td><td class="prob">39.04%</td><td>52.7</td><td>68</td><td>45</td><td>1412.99</td><td>67</td></tr>
+          <tr><td class="city">Baltimore</td><td class="state">MD</td><td><span class="team-pill">Ravens</span></td><td class="prob">28.13%</td><td>54.1</td><td>33</td><td>11</td><td>1559.53</td><td>59</td></tr>
+          <tr><td class="city">Cincinnati</td><td class="state">OH</td><td><span class="team-pill">Bengals</span></td><td class="prob">17.48%</td><td>56.4</td><td>28</td><td>8</td><td>1443.78</td><td>35</td></tr>
+          <tr><td class="city">Cleveland</td><td class="state">OH</td><td><span class="team-pill">Browns</span></td><td class="prob">45.99%</td><td>56.4</td><td>100</td><td>25</td><td>1374.9</td><td>60</td></tr>
+          <tr><td class="city">Pittsburgh</td><td class="state">PA</td><td><span class="team-pill">Steelers</span></td><td class="prob">41.13%</td><td>51.9</td><td>83</td><td>44</td><td>1486.2</td><td>53</td></tr>
+          <tr><td class="city">Houston</td><td class="state">TX</td><td><span class="team-pill">Texans</span></td><td class="prob">60.00%</td><td>60.6</td><td>73</td><td>49</td><td>1544.92</td><td>58</td></tr>
+          <tr><td class="city">Indianapolis</td><td class="state">IN</td><td><span class="team-pill">Colts</span></td><td class="prob">56.77%</td><td>58.9</td><td>79</td><td>43</td><td>1562.7</td><td>54</td></tr>
+          <tr><td class="city">Jacksonville</td><td class="state">FL</td><td><span class="team-pill">Jaguars</span></td><td class="prob">35.12%</td><td>53.9</td><td>59</td><td>28</td><td>1496.87</td><td>55</td></tr>
+          <tr><td class="city">Nashville</td><td class="state">TN</td><td><span class="team-pill">Titans</span></td><td class="prob">32.38%</td><td>58.9</td><td>64</td><td>29</td><td>1292.3</td><td>43</td></tr>
+          <tr><td class="city">Denver</td><td class="state">CO</td><td><span class="team-pill">Broncos</span></td><td class="prob">53.15%</td><td>50.2</td><td>93</td><td>80</td><td>1552.3</td><td>53</td></tr>
+          <tr><td class="city">Kansas City</td><td class="state">MO</td><td><span class="team-pill">Chiefs</span></td><td class="prob">31.03%</td><td>55.8</td><td>29</td><td>6</td><td>1626.21</td><td>55</td></tr>
+          <tr><td class="city">Las Vegas</td><td class="state">NV</td><td><span class="team-pill">Raiders</span></td><td class="prob">16.29%</td><td>50.8</td><td>44</td><td>27</td><td>1329.62</td><td>54</td></tr>
+          <tr><td class="city">Los Angeles</td><td class="state">CA</td><td><span class="team-pill">Chargers</span></td><td class="prob">24.18%</td><td>50.4</td><td>49</td><td>31</td><td>1495.6</td><td>47</td></tr>
+          <tr><td class="city">Dallas</td><td class="state">TX</td><td><span class="team-pill">Cowboys</span></td><td class="prob">42.56%</td><td>60.6</td><td>27</td><td>42</td><td>1526.75</td><td>52</td></tr>
+          <tr><td class="city">Philadelphia</td><td class="state">PA</td><td><span class="team-pill">Eagles</span></td><td class="prob">18.89%</td><td>51.9</td><td>18</td><td>6</td><td>1618.93</td><td>50</td></tr>
+          <tr><td class="city">Washington, D.C.</td><td class="state">DC</td><td><span class="team-pill">Commanders</span></td><td class="prob">10.00%</td><td>43.0</td><td>50</td><td>41</td><td>1411.62</td><td>50</td></tr>
+          <tr><td class="city">Chicago</td><td class="state">IL</td><td><span class="team-pill">Bears</span></td><td class="prob">24.43%</td><td>50.4</td><td>49</td><td>11</td><td>1502.25</td><td>64</td></tr>
+          <tr><td class="city">Detroit</td><td class="state">MI</td><td><span class="team-pill">Lions</span></td><td class="prob">35.21%</td><td>52.2</td><td>31</td><td>46</td><td>1624.9</td><td>56</td></tr>
+          <tr><td class="city">Green Bay</td><td class="state">WI</td><td><span class="team-pill">Packers</span></td><td class="prob">30.80%</td><td>53.6</td><td>36</td><td>10</td><td>1619.98</td><td>59</td></tr>
+          <tr><td class="city">Minneapolis</td><td class="state">MN</td><td><span class="team-pill">Vikings</span></td><td class="prob">44.32%</td><td>55.7</td><td>73</td><td>52</td><td>1419.8</td><td>54</td></tr>
+          <tr><td class="city">Atlanta</td><td class="state">GA</td><td><span class="team-pill">Falcons</span></td><td class="prob">42.62%</td><td>54.9</td><td>66</td><td>48</td><td>1481.39</td><td>53</td></tr>
+          <tr><td class="city">Charlotte</td><td class="state">NC</td><td><span class="team-pill">Panthers</span></td><td class="prob">57.17%</td><td>56.0</td><td>100</td><td>70</td><td>1393.09</td><td>59</td></tr>
+          <tr><td class="city">New Orleans</td><td class="state">LA</td><td><span class="team-pill">Saints</span></td><td class="prob">52.23%</td><td>60.4</td><td>63</td><td>75</td><td>1333.19</td><td>56</td></tr>
+          <tr><td class="city">Tampa</td><td class="state">FL</td><td><span class="team-pill">Buccaneers</span></td><td class="prob">49.95%</td><td>53.9</td><td>90</td><td>65</td><td>1472.55</td><td>48</td></tr>
+          <tr><td class="city">Phoenix</td><td class="state">AZ</td><td><span class="team-pill">Cardinals</span></td><td class="prob">22.21%</td><td>54.2</td><td>38</td><td>22</td><td>1411.03</td><td>49</td></tr>
+          <tr><td class="city">Los Angeles</td><td class="state">CA</td><td><span class="team-pill">Rams</span></td><td class="prob">31.06%</td><td>50.4</td><td>46</td><td>28</td><td>1666.39</td><td>47</td></tr>
+          <tr><td class="city">San Jose</td><td class="state">CA</td><td><span class="team-pill">49ers</span></td><td class="prob">36.22%</td><td>50.4</td><td>79</td><td>30</td><td>1536.78</td><td>53</td></tr>
+          <tr><td class="city">Seattle</td><td class="state">WA</td><td><span class="team-pill">Seahawks</span></td><td class="prob">52.29%</td><td>51.4</td><td>86</td><td>51</td><td>1635.92</td><td>60</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      <img src="https://i.postimg.cc/fLnZVtcy/download.png" alt="Vegas Insider" />
+    </div>
+  </div>
+</section>
