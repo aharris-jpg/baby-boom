@@ -1,0 +1,108 @@
+<section class="vi-babybowl-photo" role="region" aria-labelledby="vi-babybowl-photo-title"
+  style="max-width:980px;margin:18px auto;border:1px solid #E4ECF4;border-radius:14px;overflow:hidden;
+         background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04),0 10px 22px rgba(16,80,120,.10);">
+
+  <style>
+    section.vi-babybowl-photo, section.vi-babybowl-photo * { box-sizing:border-box; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+    .vi-babybowl-photo{
+      --border:#E4ECF4;
+      --navy:#102449;
+      --muted:#6E7480;
+    }
+
+    .vi-babybowl-photo .topbar{
+      padding:12px 14px;
+      background:
+        radial-gradient(140% 120% at 85% 0%, rgba(255,255,255,.30) 0%, transparent 55%),
+        linear-gradient(120deg,#134B86 0%, #1E6A8A 45%, #1F7A5A 100%);
+      color:#fff;
+    }
+    .vi-babybowl-photo .kicker{
+      margin:0 0 4px;
+      font-size:12px;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      opacity:.95;
+    }
+    .vi-babybowl-photo .title{
+      margin:0;
+      font-size:clamp(16px,2.2vw,20px);
+      font-weight:900;
+      line-height:1.2;
+    }
+
+    .vi-babybowl-photo .media{
+      position:relative;
+      background:#0b1220;
+    }
+    .vi-babybowl-photo img{
+      width:100%;
+      height:auto;
+      display:block;
+      aspect-ratio: 680 / 540;  /* keeps layout stable */
+      object-fit:cover;
+    }
+    .vi-babybowl-photo .overlay{
+      position:absolute;
+      inset:auto 12px 12px 12px;
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      align-items:center;
+      pointer-events:none;
+    }
+    .vi-babybowl-photo .chip{
+      pointer-events:none;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:800;
+      color:#0b1b18;
+      background:rgba(248,197,69,.95);
+      border:1px solid rgba(248,197,69,1);
+      box-shadow:0 8px 18px rgba(0,0,0,.25);
+      white-space:nowrap;
+    }
+    .vi-babybowl-photo .chip.secondary{
+      color:#fff;
+      background:rgba(16,36,73,.70);
+      border:1px solid rgba(255,255,255,.22);
+    }
+
+    .vi-babybowl-photo .caption{
+      padding:10px 14px 12px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+      display:flex;
+      gap:10px;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+    .vi-babybowl-photo .caption strong{ color:var(--navy); }
+  </style>
+
+  <div class="topbar">
+    <p class="kicker" id="vi-babybowl-photo-title">Super Bowl Baby Boom Index 2026</p>
+    <h3 class="title">When the confetti falls… some cities stay in celebration mode.</h3>
+  </div>
+
+  <figure class="media" style="margin:0;">
+    <img
+      src="https://i.etsystatic.com/16050054/r/il/7eb0f9/2030760230/il_680x540.2030760230_c7q7.jpg"
+      alt="Newborn baby resting on an American football"
+      loading="lazy"
+      decoding="async"
+    />
+    <div class="overlay" aria-hidden="true">
+      <span class="chip">🍼 Baby-boom watch</span>
+      <span class="chip secondary">🏈 Post–Super Bowl snapshot</span>
+    </div>
+  </figure>
+
+ 
+</section>
