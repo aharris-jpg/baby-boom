@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Super Bowl Baby Boom Index 2026: Top 20 NFL Cities</title>
+</head>
+
+<body style="margin:0;">
+
+<section class="vi-babybowl-embed" role="region" aria-labelledby="vi-babybowl-title"
+  style="max-width:860px;margin:16px auto;font:14px/1.35 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+         color:#141823;background:#ffffff;border:1px solid #E4ECF4;border-radius:12px;
+         box-shadow:0 1px 2px rgba(0,0,0,.04),0 10px 22px rgba(18,71,52,.14);">
+
+  <style>
+    /* ==== Scoped styles for the Baby Bowl table ===================== */
+    section.vi-babybowl-embed, section.vi-babybowl-embed * {
+      box-sizing: border-box;
+      font-family: inherit;
+      color: inherit;
+    }
+    section.vi-babybowl-embed { color-scheme: light; }
+
+    .vi-babybowl-embed{
+      --ink:#141823;
+      --muted:#6E7480;
+      --border:#E4ECF4;
+      --snow:#F7FBFF;
+
+      --field-900:#0B2E1F;
+      --field-700:#124734;
+      --field-500:#1F7A58;
+
+      --night-900:#0A1630;
+      --night-700:#102449;
+
+      --gold:#F8C545;
+      --gold-2:#F4D77E;
+
+      --pink:#E8507B;          /* baby accent */
+      --pink-soft: rgba(232,80,123,.05); /* softer hover tint */
+      --baby-blue: rgba(120,180,255,.10);
+    }
+
+    .vi-babybowl-embed .head{
+      padding:14px 16px;border-bottom:1px solid var(--border)!important;color:#fff!important;
+      background:
+        /* subtle "confetti" dots */
+        radial-gradient(circle at 12% 30%, rgba(248,197,69,.18) 0 2px, transparent 3px),
+        radial-gradient(circle at 28% 70%, rgba(232,80,123,.14) 0 2px, transparent 3px),
+        radial-gradient(circle at 55% 22%, rgba(255,255,255,.16) 0 2px, transparent 3px),
+        radial-gradient(circle at 75% 62%, rgba(120,180,255,.12) 0 2px, transparent 3px),
+        radial-gradient(circle at 90% 25%, rgba(248,197,69,.14) 0 2px, transparent 3px),
+        radial-gradient(140% 160% at 90% 0%, rgba(255,255,255,.20) 0%, transparent 55%),
+        linear-gradient(120deg,var(--night-900) 0%,var(--night-700) 38%,var(--field-700) 100%)!important;
+      position:relative;
+      overflow:hidden;
+    }
+    .vi-babybowl-embed .head::after{
+      content:"🏈🍼";
+      position:absolute;
+      right:16px;
+      top:10px;
+      font-size:26px;
+      filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));
+    }
+    .vi-babybowl-embed .title{
+      margin:0 0 2px;
+      font-size:clamp(16px,2.2vw,20px);
+      line-height:1.2;
+      font-weight:900;
+      letter-spacing:0.02em;
+      color:#fff!important;
+    }
+    .vi-babybowl-embed .sub{
+      margin:0;
+      color:rgba(255,255,255,.92)!important;
+      font-size:12px;
+    }
+    .vi-babybowl-embed .meta{
+      margin:6px 0 0;
+      color:rgba(255,255,255,.85)!important;
+      font-size:12px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      align-items:center;
+    }
+    .vi-babybowl-embed .meta .dot{
+      opacity:.7;
+    }
+    .vi-babybowl-embed .meta .legend{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:2px 8px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.18);
+      color:rgba(255,255,255,.92)!important;
+      font-size:11px;
+      white-space:nowrap;
+    }
+    .vi-babybowl-embed .meta .legend::before{
+      content:"📏";
+    }
+
+    .vi-babybowl-embed .table{
+      padding:10px 12px;
+      max-height:min(72vh,680px);
+      overflow:auto;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-gutter:stable;
+    }
+    .vi-babybowl-embed .table::-webkit-scrollbar{ width:8px; height:8px }
+    .vi-babybowl-embed .table::-webkit-scrollbar-track{ background:var(--snow); border-radius:999px }
+    .vi-babybowl-embed .table::-webkit-scrollbar-thumb{
+      background:linear-gradient(180deg,var(--field-500),var(--gold));
+      border-radius:999px;border:2px solid #fff;
+    }
+
+    .vi-babybowl-embed .row{
+      display:grid;
+      grid-template-columns:44px minmax(0,1.35fr) minmax(0,1fr);
+      gap:8px;
+      align-items:center;
+      margin:6px 0;
+      border:1px solid var(--border)!important;
+      border-radius:12px;
+      padding:8px 10px;
+      background:#fff!important;
+      transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease, background-color .16s ease;
+      transform-origin:center;
+    }
+    .vi-babybowl-embed .row:hover{
+      background:linear-gradient(0deg,var(--pink-soft),var(--pink-soft)),#fff!important;
+      border-color:#F2D4DA!important;
+      box-shadow:0 10px 22px rgba(16,36,73,.16);
+      transform:translateY(-1px);
+    }
+
+    @media (max-width:640px){
+      .vi-babybowl-embed .row{ grid-template-columns:34px minmax(0,1fr); }
+      .vi-babybowl-embed .metric{ grid-column:1 / -1; }
+    }
+
+    .vi-babybowl-embed .rank{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:900;
+      font-variant-numeric:tabular-nums;
+      color:var(--muted);
+    }
+    .vi-babybowl-embed .rank span{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:28px;height:28px;
+      border-radius:999px;
+      background:var(--snow);
+      border:1px solid var(--border);
+    }
+    .vi-babybowl-embed .row[data-rank="1"] .rank span{
+      background:radial-gradient(circle at 30% 25%,#fff 0%,var(--gold-2) 38%,var(--gold) 100%);
+      border-color:#E1B534;color:#4A3200;
+    }
+    .vi-babybowl-embed .row[data-rank="2"] .rank span{
+      background:radial-gradient(circle at 30% 25%,#fff 0%,#E8EDF6 40%,#C9D4EA 100%);
+      border-color:#C9D4EA;color:#1A2A4A;
+    }
+    .vi-babybowl-embed .row[data-rank="3"] .rank span{
+      background:radial-gradient(circle at 30% 25%,#fff 0%,#F1D2B6 42%,#DFA977 100%);
+      border-color:#DFA977;color:#4B2C11;
+    }
+
+    .vi-babybowl-embed .place{
+      display:flex;
+      flex-direction:column;
+      gap:3px;
+      min-width:0;
+    }
+    .vi-babybowl-embed .place-main{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      font-weight:800;
+      color:#101827;
+      min-width:0;
+    }
+    .vi-babybowl-embed .place-main .city{
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+    .vi-babybowl-embed .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:2px 8px;
+      border-radius:999px;
+      font-size:11px;
+      background:rgba(31,122,88,.08);
+      color:var(--field-900);
+      white-space:nowrap;
+      flex:0 0 auto;
+    }
+    .vi-babybowl-embed .pill::before{ content:"🏈"; font-size:11px; }
+    .vi-babybowl-embed .place-sub{
+      font-size:11px;
+      color:var(--muted);
+      line-height:1.3;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+
+    .vi-babybowl-embed .metric{
+      position:relative;
+      height:30px;
+      border-radius:999px;
+      background:rgba(16,36,73,.06)!important;
+      overflow:hidden;
+      padding-right:140px;
+    }
+    .vi-babybowl-embed .bar{
+      position:absolute;
+      inset:0 auto 0 0;
+      border-radius:999px;
+      background:linear-gradient(90deg,var(--field-700),var(--field-500))!important;
+      box-shadow:inset 0 0 0 1px rgba(0,0,0,.03);
+    }
+    .vi-babybowl-embed .metric-inner{
+      position:absolute;
+      inset:0 8px 0 auto;
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:6px;
+      font-variant-numeric:tabular-nums;
+      font-size:12px;
+    }
+    .vi-babybowl-embed .chip{
+      padding:3px 9px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid #E5E7EB;
+      white-space:nowrap;
+    }
+    .vi-babybowl-embed .chip.prob{
+      font-weight:900;
+      color:var(--night-700);
+      border-color:#D9E0EF;
+    }
+    .vi-babybowl-embed .chip.prob::before{
+      content:"🍼 ";
+      font-weight:normal;
+    }
+    .vi-babybowl-embed .chip.note{
+      color:var(--muted);
+      font-size:11px;
+      background:rgba(248,197,69,.10);
+      border-color:rgba(248,197,69,.28);
+    }
+
+    /* Footer + embed button */
+    .vi-babybowl-embed .footer{
+      display:block!important;
+      text-align:center;
+      padding:8px 0;
+      border-top:1px solid var(--border);
+      background:
+        radial-gradient(160% 180% at 90% 0%, rgba(255,255,255,.16) 0%, transparent 55%),
+        linear-gradient(120deg,var(--field-900) 0%,var(--field-700) 48%,var(--night-700) 100%)!important;
+      color:#fff;
+      position:relative;
+      overflow:visible;
+    }
+    .vi-babybowl-embed .footer-inner{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:12px;
+      position:relative;
+      padding:0 10px;
+    }
+    .vi-babybowl-embed .embed-btn{
+      position:absolute;
+      left:14px;
+      background:var(--gold);
+      color:#2B1A00;
+      border:1px solid #E0AE32;
+      border-radius:10px;
+      padding:7px 14px;
+      font:13px/1.2 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+      cursor:pointer;
+      transition:.2s ease;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+    }
+    .vi-babybowl-embed .embed-btn::before{ content:"</>"; font-size:12px; }
+    .vi-babybowl-embed .embed-btn:hover{ background:#F4C23D; border-color:#D09E24; }
+
+    .vi-babybowl-embed .brand{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+    }
+    .vi-babybowl-embed .brand img{
+      height:34px;
+      width:auto;
+      display:inline-block;
+      filter:drop-shadow(0 0 5px rgba(0,0,0,.35));
+    }
+    .vi-babybowl-embed .brand span{
+      font-weight:800;
+      letter-spacing:.02em;
+      color:#fff;
+      font-size:12px;
+      opacity:.92;
+    }
+
+    .vi-babybowl-embed .embed-wrapper{
+      position:absolute;
+      bottom:calc(100% + 10px);
+      left:50%;
+      transform:translateX(-50%);
+      width:min(620px, calc(100% - 24px));
+      display:none;
+      padding:16px 20px;
+      border:1px solid #D1D5DB;
+      border-radius:12px;
+      background:#fff;
+      color:#111;
+      box-shadow:0 12px 28px rgba(0,0,0,.18);
+      z-index:1000;
+    }
+    .vi-babybowl-embed .embed-wrapper::after{
+      content:"";
+      position:absolute;
+      left:50%;
+      transform:translateX(-50%);
+      bottom:-8px;
+      border:8px solid transparent;
+      border-top-color:#fff;
+      filter:drop-shadow(0 1px 1px rgba(0,0,0,.08));
+    }
+    .vi-babybowl-embed .embed-wrapper textarea{
+      width:100%;
+      height:140px;
+      font:13px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+      color:#111;
+      background:#F9FAFB;
+      padding:10px 12px;
+      border:1px solid #D1D5DB;
+      border-radius:10px;
+      resize:none;
+    }
+    .vi-babybowl-embed #copy-status{
+      display:none;
+      color:#047857;
+      font-size:13px;
+      margin-top:6px;
+    }
+
+    @media (max-width:640px){
+      .vi-babybowl-embed .embed-btn{ position:static; font-size:12px; padding:6px 10px; }
+      .vi-babybowl-embed .footer-inner{ justify-content:space-between; }
+      .vi-babybowl-embed .brand img{ height:30px; }
+      .vi-babybowl-embed .embed-wrapper{ width:calc(100% - 24px); }
+    }
+  </style>
+
+  <div class="head">
+    <h3 id="vi-babybowl-title" class="title">Super Bowl Baby Boom Index 2026 — Top 20 NFL Cities</h3>
+    <p class="sub"><em>Ranked by implied probability of a post–Super Bowl baby boom, using fertility baseline + fan attention + sentiment + team momentum + “baby fever.”</em></p>
+    <p class="meta">
+      <span>Snapshot frozen December 2025</span>
+      <span class="dot">•</span>
+      <span>Percentages show relative likelihood within this dataset</span>
+      <span class="legend">Bars scaled to #1 city (60%)</span>
+    </p>
+  </div>
+
+  <div class="table" aria-label="Top 20 NFL cities ranked by implied probability of a baby boom">
+    <!-- Bars scaled to max = 60.00% (Rank #1) -->
+
+    <div class="row" data-rank="1">
+      <div class="rank"><span>1</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Houston, TX</span> <span class="pill">Texans</span></div>
+        <div class="place-sub">Big momentum + highest birth-rate baseline in the study</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:100%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">60% chance</span>
+          <span class="chip note">diaper watch</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="2">
+      <div class="rank"><span>2</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Charlotte, NC</span> <span class="pill">Panthers</span></div>
+        <div class="place-sub">Fan focus stayed high — and “baby fever” interest ran hot</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:95.28%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">57.2% chance</span>
+          <span class="chip note">crib-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="3">
+      <div class="rank"><span>3</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Indianapolis, IN</span> <span class="pill">Colts</span></div>
+        <div class="place-sub">Steady season + strong baseline = high carryover potential</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:94.62%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">56.8% chance</span>
+          <span class="chip note">crib-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="4">
+      <div class="rank"><span>4</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Denver, CO</span> <span class="pill">Broncos</span></div>
+        <div class="place-sub">One of the most emotionally reactive fan markets this season</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:88.58%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">53.1% chance</span>
+          <span class="chip note">crib-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="5">
+      <div class="rank"><span>5</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Seattle, WA</span> <span class="pill">Seahawks</span></div>
+        <div class="place-sub">Sustained attention + strong finish into December</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:87.15%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">52.3% chance</span>
+          <span class="chip note">crib-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="6">
+      <div class="rank"><span>6</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">New Orleans, LA</span> <span class="pill">Saints</span></div>
+        <div class="place-sub">High birth-rate baseline + positive season-long sentiment</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:87.05%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">52.2% chance</span>
+          <span class="chip note">crib-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="7">
+      <div class="rank"><span>7</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Tampa, FL</span> <span class="pill">Buccaneers</span></div>
+        <div class="place-sub">A true coin-flip market with steady celebration energy</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:83.25%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">50.0% chance</span>
+          <span class="chip note">coin flip</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="8">
+      <div class="rank"><span>8</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Cleveland, OH</span> <span class="pill">Browns</span></div>
+        <div class="place-sub">One of the most locked-in fan bases in the league</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:76.65%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">46.0% chance</span>
+          <span class="chip note">stroller mode</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="9">
+      <div class="rank"><span>9</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Minneapolis, MN</span> <span class="pill">Vikings</span></div>
+        <div class="place-sub">Steady engagement — no spikes, no fade</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:73.87%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">44.3% chance</span>
+          <span class="chip note">nursery-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="10">
+      <div class="rank"><span>10</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Atlanta, GA</span> <span class="pill">Falcons</span></div>
+        <div class="place-sub">Quiet consistency across the season</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:71.03%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">42.6% chance</span>
+          <span class="chip note">nursery-ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="11">
+      <div class="rank"><span>11</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Dallas, TX</span> <span class="pill">Cowboys</span></div>
+        <div class="place-sub">Big attention — but the top-tier edge lives elsewhere</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:70.93%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">42.6% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="12">
+      <div class="rank"><span>12</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Boston, MA</span> <span class="pill">Patriots</span></div>
+        <div class="place-sub">Strong engagement — lower birth-rate baseline</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:70.62%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">42.4% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="13">
+      <div class="rank"><span>13</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Pittsburgh, PA</span> <span class="pill">Steelers</span></div>
+        <div class="place-sub">Always engaged — but less “peak” season energy</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:68.55%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">41.1% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="14">
+      <div class="rank"><span>14</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Buffalo, NY</span> <span class="pill">Bills</span></div>
+        <div class="place-sub">Plenty of passion — lower baseline holds ceiling down</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:67.28%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">40.4% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="15">
+      <div class="rank"><span>15</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">New York, NY</span> <span class="pill">Giants</span></div>
+        <div class="place-sub">Huge market — energy spreads thin across the metro</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:65.07%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">39.0% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="16">
+      <div class="rank"><span>16</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">New York, NY</span> <span class="pill">Jets</span></div>
+        <div class="place-sub">Attention is there — sustained momentum is not</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:62.33%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">37.4% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="17">
+      <div class="rank"><span>17</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">San Jose, CA</span> <span class="pill">49ers</span></div>
+        <div class="place-sub">High engagement meets a low birth-rate environment</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:60.37%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">36.2% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="18">
+      <div class="rank"><span>18</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Detroit, MI</span> <span class="pill">Lions</span></div>
+        <div class="place-sub">Belief surged — but baseline keeps it modest</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:58.68%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">35.2% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="19">
+      <div class="rank"><span>19</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Jacksonville, FL</span> <span class="pill">Jaguars</span></div>
+        <div class="place-sub">Solid signals — not enough intensity to break out</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:58.53%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">35.1% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-rank="20">
+      <div class="rank"><span>20</span></div>
+      <div class="place">
+        <div class="place-main"><span class="city">Miami, FL</span> <span class="pill">Dolphins</span></div>
+        <div class="place-sub">High attention — but weaker stacking vs. other Florida metros</div>
+      </div>
+      <div class="metric">
+        <span class="bar" style="width:58.23%;"></span>
+        <div class="metric-inner">
+          <span class="chip prob">34.9% chance</span>
+          <span class="chip note">in the mix</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="footer-inner">
+      <button id="copy-embed-btn" class="embed-btn" aria-controls="embed-wrapper" aria-expanded="false">
+        Embed this chart
+      </button>
+
+      <div class="brand" aria-label="Vegas Insider">
+        <img src="https://i.postimg.cc/fLnZVtcy/download.png" alt="Vegas Insider" width="140" height="40" loading="lazy" decoding="async" />
+        <span>Data-led rankings • December 2025 snapshot</span>
+      </div>
+    </div>
+
+    <div id="embed-wrapper" class="embed-wrapper" role="dialog" aria-label="Embed code">
+      <textarea id="embed-code" readonly>&lt;iframe
+  src="https://example.com/vegasinsider-babyboom-top20.html"
+  title="Super Bowl Baby Boom Index 2026 — Top 20 NFL Cities"
+  width="100%" height="740"
+  scrolling="no"
+  style="border:0;" loading="lazy"&gt;&lt;/iframe&gt;</textarea>
+      <p id="copy-status">Embed code copied!</p>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      const btn     = document.getElementById('copy-embed-btn');
+      const wrapper = document.getElementById('embed-wrapper');
+      const ta      = document.getElementById('embed-code');
+      const status  = document.getElementById('copy-status');
+
+      if (btn && wrapper && ta && status) {
+        btn.addEventListener('click', () => {
+          const isHidden = (wrapper.style.display === '' || wrapper.style.display === 'none');
+          wrapper.style.display = isHidden ? 'block' : 'none';
+          btn.setAttribute('aria-expanded', String(isHidden));
+          btn.textContent = isHidden ? 'Hide embed code' : 'Embed this chart';
+
+          if (isHidden) {
+            ta.focus();
+            ta.select();
+            try {
+              document.execCommand('copy');
+              status.style.display = 'block';
+              setTimeout(() => { status.style.display = 'none'; }, 2300);
+            } catch (e) {}
+          }
+        });
+
+        document.addEventListener('click', (e)=>{
+          const open = wrapper.style.display === 'block';
+          if (!open) return;
+          if (!wrapper.contains(e.target) && !btn.contains(e.target)) {
+            wrapper.style.display = 'none';
+            btn.setAttribute('aria-expanded','false');
+            btn.textContent = 'Embed this chart';
+          }
+        });
+
+        document.addEventListener('keydown', (e)=>{
+          if (e.key === 'Escape' && wrapper.style.display === 'block') {
+            wrapper.style.display = 'none';
+            btn.setAttribute('aria-expanded','false');
+            btn.textContent = 'Embed this chart';
+            btn.focus();
+          }
+        });
+      }
+    })();
+  </script>
+</section>
+
+</body>
+</html>
